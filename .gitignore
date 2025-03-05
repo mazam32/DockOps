@@ -1,0 +1,33 @@
+# Go binaries
+/bin/
+/build/
+/out/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Go test binary
+testdata/
+
+# Dependency directories
+/vendor/
+
+# Docker
+.docker/
+*.tar
+*.log
+
+# IDE's 
+.vscode/
+.idea/
+
+# MacOS Finder 
+.DS_Store
+
+# Binary output
+DockOps
+
+# Build artifacts
+*.exe
+*.out
